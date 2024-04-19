@@ -5,10 +5,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Supermarket Management</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css"/>
 </head>
 <body>
-	<div>
-		@RenderBody()
-	</div>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="/home/index">Supermarket</a>
+		<div class="navbar-nav">
+				<a class="nav-item nav-link" href="/home/index">Home</a>
+				<a class="nav-item nav-link" href="/categories/index">Categories</a>
+		</div>
+	</nav>
+
+</header>
+<div class="container">
+	@RenderBody()
+</div>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 </html>
