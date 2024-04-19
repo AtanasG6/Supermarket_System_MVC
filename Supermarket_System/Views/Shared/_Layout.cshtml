@@ -10,7 +10,7 @@
 <body>
 <header>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="/home/index">Supermarket</a>
+		<a class="navbar-brand ps-4" href="/home/index">Supermarket</a>
 		<div class="navbar-nav">
 				<a class="nav-item nav-link" href="/home/index">Home</a>
 				<a class="nav-item nav-link" href="/categories/index">Categories</a>
@@ -18,8 +18,16 @@
 	</nav>
 
 </header>
+
 <div class="container">
-	@RenderBody()
+	<div class="pb-3 pt-2">
+		@RenderSection("title")
+		<hr/>
+	</div>
+	<div>
+		@RenderBody()
+	</div>
+
 </div>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
