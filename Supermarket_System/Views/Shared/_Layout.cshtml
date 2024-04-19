@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -10,10 +12,10 @@
 <body>
 <header>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand ps-4" href="/home/index">Supermarket</a>
+			<a class="navbar-brand ps-4" asp-controller="home" asp-action="index">Supermarket</a>
 		<div class="navbar-nav">
-				<a class="nav-item nav-link" href="/home/index">Home</a>
-				<a class="nav-item nav-link" href="/categories/index">Categories</a>
+				<a class="nav-item nav-link" asp-controller="home" asp-action="index">Home</a>
+				<a class="nav-item nav-link" asp-controller="categories" asp-action="index">Categories</a>
 		</div>
 	</nav>
 
