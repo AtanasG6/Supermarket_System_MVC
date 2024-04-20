@@ -40,7 +40,7 @@ The SMS is designed to facilitate the day-to-day activities of a supermarket. Ou
 4. Open your browser and navigate to http://localhost:7105.
 
 
-## Screenshots
+## Screenshots📸
 ### Home Page
 ![Image1](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/320d6f32-5c13-4a07-b589-611fa43c1fff)
 
