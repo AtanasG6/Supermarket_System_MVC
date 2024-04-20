@@ -57,7 +57,7 @@ The SMS is designed to facilitate the day-to-day activities of a supermarket. Ou
 ![Image5](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/2dc54c57-221d-41d6-9c09-b29754f41c2d)
 
 
-## Contributing
+## Contributing🤝
 
 We welcome contributions to the Supermarket Management System! Please read our contributing guide to see how you can help improve SMS.
 
