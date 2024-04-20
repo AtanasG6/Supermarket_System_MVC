@@ -21,8 +21,13 @@ namespace Supermarket_System.Controllers
         [HttpPost]
         public IActionResult Edit(Category category)
         {
-            CategoriesRepository.UpdateCategory(category.CategoryId, category);
-            return RedirectToAction(nameof(Index)); //when no controller specified, the action method is sought in the current controller
+	        if (ModelState.IsValid)
+	        {
+				CategoriesRepository.UpdateCategory(category.CategoryId, category);
+				return RedirectToAction(nameof(Index)); //when no controller specified, the action method is sought in the current controller
+			}
+           
+            return View(category);
         }
     }
 }
