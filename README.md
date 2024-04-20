@@ -12,9 +12,6 @@ Welcome to the Supermarket Management System (SMS), a comprehensive solution for
 - [License](#license)
 - [Contact](#contact)
 
-## Screenshots
-
-
 ## Introduction
 
 The SMS is designed to facilitate the day-to-day activities of a supermarket. Our intuitive web interface allows for easy management of product categories, inventory, sales, and more.
@@ -41,6 +38,23 @@ The SMS is designed to facilitate the day-to-day activities of a supermarket. Ou
    npm start
    ```
 4. Open your browser and navigate to http://localhost:7105.
+
+
+## Screenshots
+### Home Page
+![Image1](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/320d6f32-5c13-4a07-b589-611fa43c1fff)
+
+### Category Listing
+![Image2](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/3a249872-e930-4972-bef9-89f4e1f34ab8)
+
+### Delete Confirmation
+![Image3](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/6121c8e5-3c83-462d-a094-6f3d20742492)
+
+### Edit Category
+![Image4](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/cff5373f-07d5-437e-9bbd-2b5c08df46d7)
+
+### Add Category
+![Image5](https://github.com/AtanasG6/Supermarket_System_MVC/assets/92335834/2dc54c57-221d-41d6-9c09-b29754f41c2d)
 
 
 ## Contributing
