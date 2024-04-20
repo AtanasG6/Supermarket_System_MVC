@@ -71,4 +71,3 @@ Have questions, suggestions, or want to contribute further? Reach out to us at:
 
 - Email: [gyulchev666@gmail.com](mailto:gyulchev666@gmail.com)
 - Project Link: [https://github.com/atanasg6/supermarket_system_mvc](https://github.com/atanasg6/supermarket_system_mvc)
-"""
